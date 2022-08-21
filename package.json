@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "pre-test fullstack web",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardiansyahdodii/pretest-bootcamp-fullstack.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Dodi Ardiansyah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ardiansyahdodii/pretest-bootcamp-fullstack/issues"
+  },
+  "homepage": "https://github.com/ardiansyahdodii/pretest-bootcamp-fullstack#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.4"
+  }
+}

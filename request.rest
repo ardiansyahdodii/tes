@@ -1,0 +1,73 @@
+GET http://localhost:5000/user
+
+###
+GET http://localhost:5000/user/3
+
+###
+POST http://localhost:5000/user
+Content-Type: application/json
+
+{
+    "username": "rifqi82",
+    "email": "rifqi@gmail.com",
+    "password": "qwerty3",
+    "confPassword": "qwerty3"
+}
+
+###
+PATCH http://localhost:5000/user/3
+Content-Type: application/json
+
+{
+    "username": "azlia44",
+    "email": "azlia@gmail.com",
+    "password": "qwerty2",
+    "confPassword": "qwerty2"
+}
+
+// LOGIN
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "dodi@gmail.com",
+    "password": "qwerty"
+}
+
+// LOGOUT
+###
+DELETE  http://localhost:5000/logout
+
+// ME
+###
+GET  http://localhost:5000/me
+
+// PRODUK
+###
+POST http://localhost:5000/produk
+Content-Type: application/json
+
+{
+    "kode": "1000",
+    "nama_produk": "Rp. 1.000.000",
+    "harga": "1005000"
+}
+
+
+###
+GET http://localhost:5000/produk
+
+
+
+// TRANSAKSI
+###
+GET http://localhost:5000/transaksi
+
+###
+POST http://localhost:5000/transaksi
+Content-Type: application/json
+
+{
+    "id_transaksi": "1"
+}
